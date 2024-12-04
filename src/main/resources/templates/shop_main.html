@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+<h1>메인</h1>
+<form th:action="@{/user/login}">
+	<button type="submit">로그인</button>
+</form>
+<a th:href="@{/user/login}">로그인</a>
+
+<input type="submit" value="로그인" th:action="@{/user/login}" />
+
+<button onclick="location.href='/user/login'">로그인</button>
+</html>
